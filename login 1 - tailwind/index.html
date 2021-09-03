@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login 1 - taildwind</title>
+    <link rel="stylesheet" href="assets/css/tailwind.css">
+</head>
+<body>
+    <div class="grid grid-cols-1 lg:grid-cols-2">
+        <div class="bg-green-200 lg:min-h-screen md:flex md:items-center">
+            <div class="flex-grow p-10">
+                <h1 class="font-bold text-3xl xl:text-5xl text-semibold text-center uppercase text-green-700">Seja bem-vindo</h1>
+                <p class="text-xl text-center text-white">Faça seu login para começar</p>
+            </div>
+        </div>
+        <div class="lg:flex lg:flex-col lg:items-center gap-5 h-full md:justify-center p-10 xl:p-0">
+            <div class="flex-shrink shadow-xl border border-gray-100 p-8 xl:p-0 rounded-xl">
+                <div class="flex flex-col xl:flex-row">
+                    <img src="assets/img/image.jpg" alt="face gerada" class="h-40 w-40 mx-auto rounded-full xl:rounded-none xl:rounded-tl-xl">
+                    <div class="p-8 grid grid-cols-2 justify-items-around items-center w-full">
+                        <div class="text-center items-center">
+                            <p class="text-xl text-green-500 font-semibold">Nome da pessoa</p>
+                            <p class="text-sm text-grey-200">Email da pessoa</p>
+                        </div>
+                        <div class="text-center">
+                            <button class="border border-red-400 p-2 rounded-xl text-red-400 font-semibold hover:bg-red-500 hover:text-white duration-300">Não sou eu</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex p-4">
+                    <input type="password" placeholder="Digite sua senha:" class="border border-grey-100 outline-none w-full ml-0 xl:ml-10 rounded-l-xl p-2 pl-5">
+                    <button class="bg-green-400 p-2 rounded-r-xl text-white font-semibold hover:bg-green-600 mr-0 xl:md-10 duration-300">Acessar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
